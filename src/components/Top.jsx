@@ -3,9 +3,9 @@ import top_m from "/public/images/topimage_files/top_m.webp";
 
 const Top = () => {
   return (
-    <div className="">
+    <div>
       <div className=" relative w-full">
-        <img className="w-full " src={top} alt="top-image" />
+        <img className="w-full pb-11" src={top} alt="top-image" />
         <div className="absolute top-1/2 left-1/3">
           <h2 className=" fontfamily-MBC1961GulimM text-[66px] font-black text-white ">
             Beyound Home

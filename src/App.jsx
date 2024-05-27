@@ -3,7 +3,9 @@ import Top from "./components/Top";
 import CardSection from "./components/CardSection";
 import Middle from "./components/Middle";
 import News from "./components/News";
-
+import Bottom from "./components/Bottom";
+import Low from "./components/Low";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -11,12 +13,12 @@ const App = () => {
       <Header />
       <Top />
       <CardSection />
-     <Middle />
-     <News/>
-          
-        </div>
-
-    
+      <Middle />
+      <News />
+      <Bottom />
+      <Low />
+      <Footer />
+    </div>
   );
 };
 

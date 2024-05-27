@@ -1,4 +1,7 @@
 import Slider from "react-slick";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // const SlideimageData = [
 //   {image: "apartment"},
@@ -14,19 +17,34 @@ import Slider from "react-slick";
 //   {image: "smarthome"},
 // ];
 
+useEffect(() => {
+  AOS.init();
+});
 
 const Middle = () => {
   return (
-    <div className="flex bg-[#FF681B]">
-      <div className="">
-        <div>
-          <h2 className="text-white">공간에서 경험까지, 완전히 새롭게 </h2>
-          <h4 className="text-white">Beyond Home, Zigbang</h4>
+    <section className="bg-[#FF681B]">
+      <div className="max-w-[1080px] mx-auto flex justify-between items-center p-7 pt-12 pb-12">
+        <div className="flex flex-col">
+          <div data-aos="fade-up">
+            <h2 className="text-white mt-12 text-[45px] font-bold">
+              공간에서 경험까지, <br />
+              완전히 새롭게{" "}
+            </h2>
+            <h4 className="text-white mb-12  text-[40px] ">
+              Beyond Home, Zigbang
+            </h4>
+          </div>
         </div>
-            <img className="h-[200px]" src="/images/slideimages/apartment.png" alt="apartment"/>
+        <div className="">
+          <img
+            className="m-12 flex items-center h-[200px] "
+            src="/images/slideimages/apartment.png"
+            alt="apartment"
+          />
+        </div>
       </div>
-        
-    </div>
+    </section>
   );
 };
 
