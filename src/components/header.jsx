@@ -2,8 +2,8 @@ import Logo from "/public/images/logo-m_orange.svg";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 border bg-white">
-      <div className="flex justify-between py-3 px-10">
+    <header className="sticky top-0 border bg-white z-10 ">
+      <div className="flex justify-between py-3  max-w-[1080px] mx-auto">
         <img className="w-[129px]" src={Logo} alt="zigbang-Logo" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,7 @@ const Header = () => {
           viewBox="0 0 24 24"
           stroke="currentColor"
           width="45"
-          className="p-2 inline-block lg:hidden"
+          className="p-2 inline-block "
         >
           <path
             strokeLinecap="round"
