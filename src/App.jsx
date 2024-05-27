@@ -1,6 +1,9 @@
 import Header from "./components/Header";
 import Top from "./components/Top";
 import CardSection from "./components/CardSection";
+import Middle from "./components/Middle";
+import News from "./components/News";
+
 
 const App = () => {
   return (
@@ -8,11 +11,12 @@ const App = () => {
       <Header />
       <Top />
       <CardSection />
-      <div className="bg-[#FF681B]">
-        <h2 className="text-white">공간에서 경험까지, 완전히 새롭게 </h2>
-        <h4 className="text-white">Beyond Home, Zigbang</h4>
-      </div>
-    </div>
+     <Middle />
+     <News/>
+          
+        </div>
+
+    
   );
 };
 

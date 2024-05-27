@@ -1,7 +1,7 @@
 import Card from "./Card";
 import cardData from "../data/cardData.json";
 
-const CardSection = ({}) => {
+const CardSection = () => {
   return (
     <section className="max-w-[1080px] mx-auto">
       <h2 className="text-center p-10 text-[32px] font-extrabold">
