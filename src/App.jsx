@@ -5,12 +5,12 @@ import News from "./components/News";
 import Bottom from "./components/Bottom";
 import Low from "./components/Low";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Header2 from "./components/Header2";
 
 const App = () => {
   return (
     <div className="font-pretendard ">
-      <Header />
+      <Header2 />
       <Top />
       <CardSection />
       <Middle />

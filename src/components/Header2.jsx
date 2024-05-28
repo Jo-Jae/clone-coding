@@ -1,6 +1,6 @@
 import Logo from "/images/logo-m_orange.svg";
 
-const Header = () => {
+const Header2 = () => {
   return (
     <header className="sticky top-0 border bg-white z-10 ">
       <div className="flex justify-between py-3  max-w-[1080px] mx-auto">
@@ -25,4 +25,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;
