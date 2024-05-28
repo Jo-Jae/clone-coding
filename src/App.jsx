@@ -9,7 +9,7 @@ import Header from "./components/Header2";
 
 const App = () => {
   return (
-    <div className="font-pretendard ">
+    <div className="font-family: font-pretendard">
       <Header />
       <Top />
       <CardSection />

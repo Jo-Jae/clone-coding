@@ -1,6 +1,6 @@
 const Low = () => {
   return (
-    <div className="bg-black m-0 ">
+    <div className="bg-black  pb-20">
       <section className=" pt-11 max-w-[1080px] mx-auto text-[16px]">
         <div className="flex justify-between items-start">
           <img
