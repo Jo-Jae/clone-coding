@@ -14,8 +14,8 @@ const Middle = () => {
         <div className="">
           <img
             className="m-12 flex items-center h-[200px] "
-            src="/images/slideimages/apartment.png"
-            alt="apartment"
+            src="/images/slideimages/slide.gif"
+            alt="slide_image"
           />
         </div>
       </div>
