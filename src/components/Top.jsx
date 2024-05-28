@@ -1,5 +1,5 @@
-import top from "/public/images/topimage_files/top.webp";
-import top_m from "/public/images/topimage_files/top_m.webp";
+import top from "/images/topimage_files/top.webp";
+// import top_m from "/public/images/topimage_files/top_m.webp";
 
 const Top = () => {
   return (
