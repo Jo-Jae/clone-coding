@@ -1,19 +1,3 @@
-import Slider from "react-slick";
-
-// const SlideimageData = [
-//   {image: "apartment"},
-//   {image: "cleaning"},
-//   {image: "doorlock"},
-//   {image: "person"},
-//   {image: "screen"},
-//   {image: "storage"},
-//   {image: "brokerage"},
-//   {image: "connection"},
-//   {image: "globe"},
-//   {image: "protection"},
-//   {image: "smarthome"},
-// ];
-
 const Middle = () => {
   return (
     <section className="bg-[#FF681B]">
