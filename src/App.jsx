@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="fond-pretendard ">
+    <div className="font-pretendard ">
       <Header />
       <Top />
       <CardSection />
