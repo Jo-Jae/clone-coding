@@ -1,11 +1,11 @@
-import Header from "./components/Header";
 import Top from "./components/Top";
 import CardSection from "./components/CardSection";
-import Middle from "./components/Middle";
 import News from "./components/News";
 import Bottom from "./components/Bottom";
 import Low from "./components/Low";
 import Footer from "./components/Footer";
+import Header from "./components/header";
+import Middle from "./components/middle";
 
 const App = () => {
   return (
