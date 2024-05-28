@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Top from "./components/Top";
 import CardSection from "./components/CardSection";
 import Middle from "./components/Middle";
@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="font-pretendard ">
-      <Header />
+      {/* <Header /> */}
       <Top />
       <CardSection />
       <Middle />
