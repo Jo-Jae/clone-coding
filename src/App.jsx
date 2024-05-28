@@ -5,7 +5,7 @@ import News from "./components/News";
 import Bottom from "./components/Bottom";
 import Low from "./components/Low";
 import Footer from "./components/Footer";
-import Header from "./components/header";
+import Header from "./components/Header";
 
 const App = () => {
   return (
